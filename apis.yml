@@ -1,7 +1,16 @@
 aid: accuvein
-name: Accuvein
-description: 'Accuvein is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+name: AccuVein
+description: >-
+  AccuVein, Inc. is a Medford, New York medical device manufacturer that builds handheld,
+  near-infrared (NIR) vein visualization systems used by clinicians for peripheral vascular
+  access. Its AV500 and AV600 devices project a real-time green image of superficial
+  vasculature onto the surface of the skin, letting nurses and phlebotomists see veins,
+  valves and bifurcations that are not visible to the naked eye before a needle stick. The
+  company sells into acute care, non-acute care and aesthetics, and supports the product
+  line with published instructions for use, product manuals, troubleshooting guidance and a
+  knowledge center. AccuVein is a hardware business: as of this profile it publishes no
+  developer program, no public API, no SDK and no machine-readable API description.
+image: https://www.accuvein.com/wp-content/uploads/2022/05/AccuVein-Two-Color-Logo-954x160.png
 url: https://raw.githubusercontent.com/api-evangelist/accuvein/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
@@ -12,6 +21,13 @@ created: '2026-09-06'
 modified: '2026-09-06'
 tags:
 - Company
+- Medical Devices
+- Healthcare
+- Vein Visualization
+- Vascular Access
+- Near-Infrared Imaging
+- Medical Imaging
+- Hardware
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -20,4 +36,47 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://equityzen.com/company/accuvein
+  url: https://www.accuvein.com/
+- type: Support
+  url: https://www.accuvein.com/support/
+- type: Blog
+  url: https://www.accuvein.com/news/
+- type: TermsOfService
+  url: https://www.accuvein.com/terms-of-use/
+- type: PrivacyPolicy
+  url: https://www.accuvein.com/privacy-policy/
+- type: Contact
+  url: https://www.accuvein.com/contact/
+- type: DomainSecurity
+  url: security/accuvein-domain-security.yml
+- type: LLMsTxt
+  url: llms/accuvein-llms.txt
+x-enrichment:
+  date: '2026-09-06'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v3
+x-coverage:
+  state: none
+  reason: not-a-software-company
+  detail: >-
+    AccuVein manufactures handheld near-infrared vein-visualization hardware (AV500/AV600)
+    sold through medical distributors and GPOs; its only web presence is a WordPress
+    marketing and product-support site with no developer surface, and developer./api./docs.
+    accuvein.com do not resolve in DNS.
+  evidence:
+  - url: https://www.accuvein.com/
+    status: 200
+  - url: https://www.accuvein.com/openapi.json
+    status: 404
+  - url: https://www.accuvein.com/api-docs
+    status: 404
+  - url: https://www.accuvein.com/graphql
+    status: 404
+  - url: https://www.accuvein.com/.well-known/agent-card.json
+    status: 404
+  - url: https://www.accuvein.com/.well-known/security.txt
+    status: 404
+  - url: https://api.github.com/users/accuvein/repos
+    status: 200
+  checked: '2026-09-06'

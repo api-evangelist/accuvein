@@ -1,0 +1,65 @@
+generated: '2026-09-06'
+method: probed
+source: >-
+  Live unauthenticated GET of the named /.well-known/ paths on every host this record knows.
+  AccuVein registers no API baseURL and publishes no OpenAPI, so the host set is the
+  registrable domain and its www host only; developer.accuvein.com, api.accuvein.com and
+  docs.accuvein.com do not resolve in DNS.
+note: >-
+  Every probed path returned 404 with the site's WordPress HTML 404 body. No /.well-known
+  document of any kind is served, so no WellKnown or SecurityTxt pointer is emitted — this
+  file records a verified absence, not a presence.
+hosts:
+- host: www.accuvein.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+- host: accuvein.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+unresolved_hosts:
+- host: developer.accuvein.com
+  result: NXDOMAIN
+- host: api.accuvein.com
+  result: NXDOMAIN
+- host: docs.accuvein.com
+  result: NXDOMAIN

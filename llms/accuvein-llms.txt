@@ -1,0 +1,52 @@
+# AccuVein, Inc.
+
+> AccuVein builds handheld near-infrared (NIR) vein visualization systems for clinical
+> vascular access. The AV500 and AV600 project a real-time image of superficial veins,
+> valves and bifurcations onto the surface of the skin so clinicians can assess a site
+> before a needle stick. AccuVein is a medical device manufacturer, not a software vendor.
+
+## API surface
+
+AccuVein publishes **no public API**. As of 2026-09-06 there is no developer portal, no
+API reference, no SDK, no webhook or event surface, no MCP server, no A2A agent card and
+no machine-readable API description (OpenAPI, AsyncAPI, GraphQL SDL, WSDL or Protobuf) on
+any host this company controls. `developer.accuvein.com`, `api.accuvein.com` and
+`docs.accuvein.com` do not resolve in DNS; `/openapi.json`, `/swagger.json`, `/api-docs`,
+`/graphql` and every probed `/.well-known/` path return 404 on `www.accuvein.com`.
+
+The company's own `https://www.accuvein.com/llms.txt` returns HTTP 200 with a zero-byte
+body — the file is served but empty, so it carries no guidance for agents. This document
+is an API Evangelist-generated profile summary, not a copy of a provider-published file.
+
+## Company
+
+- [AccuVein home](https://www.accuvein.com/): Company site and product line.
+- [AV600 Vein Visualization System](https://www.accuvein.com/av600-vein-visualization-system/): Current flagship device.
+- [AV500 Vein Visualization System](https://www.accuvein.com/vein-visualization-system/): Prior-generation device, still supported.
+- [Accessories](https://www.accuvein.com/accessories/): Stands, cradles and mounts.
+- [About AccuVein](https://www.accuvein.com/about/): Company background and management.
+
+## Support and product documentation
+
+- [Support](https://www.accuvein.com/support/): Service contacts and support hours.
+- [Product Manuals](https://www.accuvein.com/product-manuals/): PDF manuals and Instructions for Use.
+- [Troubleshooting Tips](https://www.accuvein.com/troubleshooting-tips/): Device troubleshooting guidance.
+- [AV500 Knowledge Center](https://www.accuvein.com/av500-knowledge-center/): Training and skills material.
+- [Education Resources](https://www.accuvein.com/education-resources/): Clinical education material.
+
+## Commercial
+
+- [Acute / Non-Acute Purchasing Options](https://www.accuvein.com/acute-non-acute-purchasing-options/): US purchase paths and GPO agreements. No prices are published.
+- [International Purchasing Options](https://www.accuvein.com/international-purchasing-options/): Distributor routes outside the US.
+- [Contact](https://www.accuvein.com/contact/): Sales and service contact form.
+
+## Legal
+
+- [Terms of Use](https://www.accuvein.com/terms-of-use/)
+- [Privacy Policy](https://www.accuvein.com/privacy-policy/)
+
+## Optional
+
+- [Latest News](https://www.accuvein.com/news/): Company press and announcements.
+- [Supporting Articles](https://www.accuvein.com/articles/): Published clinical evidence.
+- [Video Gallery](https://www.accuvein.com/video-gallery/)
